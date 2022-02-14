@@ -896,6 +896,9 @@ transform: rotate(-45deg) scaleX(0) translateZ(0);
 }
 
 @media (max-width: 996px) {
+    section{
+        height: 100vh;
+    }
 section .container {
 max-width: 450px;
 height: 550px;
@@ -919,6 +922,7 @@ top: -100%;
 @media (max-width: 567px) {
 section {
 padding: 0 20px;
+
 }
 }
 
