@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Medme Landing Page - Responsive Landing Page</title>
+		<!-- ======= STYLE ====== -->
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<link rel="stylesheet" href="./CSS/testimonial.css">
+		<!-- ======= BOXICONS CDN ====== -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+		<!-- ======= GSAP CDN ====== -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+	</head>
+	<body>
+		<div class="connections">
+			<div class="connection offline">
+				<i class="material-icons wifi-off">wifi_off</i>
+				<p>you are currently offline</p>
+				<a href="#" class="refreshBtn">Refresh</a>
+				<i class="material-icons close">close</i>
+			</div>
+			<div class="connection online">
+				<i class="material-icons wifi">wifi</i>
+				<p>your Internet connection was restored</p>
+				<i class="material-icons close">close</i>
+			</div>
+		</div>
+	
+		<div class="loader">
+			<div class="loading-container">
+				<div class="circle"></div>
+				<div class="circle"></div>   
+			</div>
+			LOADING,,,,
+		</div>
+		<!-- ====== 
+			HEADER 
+			====== -->
+			<div class="contents">
+
+			
+		<header class="header ">
+			<!-- ====== 
+				NAVBAR 
+			====== -->
+			<nav class="navbar">
+				<div class="logo">
+					<h2 class="logo-name">
+						<a href="#">Link<span>In</span> </a>
+					</h2>
+				</div>
+
+				<!-- ====== 
+				NAV_MENU  
+			====== -->
+				<div class="nav_menu">
+					<div class="close-nav">
+						<button class="close_btn">&#10005;</button>
+					</div>
+					<ul class="nav-link-list">
+						<li class="nav-link-list-item">
+							<a class="nav-link active" href="#home">home</a>
+						</li>
+						<li class="nav-link-list-item">
+							<a class="nav-link" href="#about">contact</a>
+						</li>
+						<li class="nav-link-list-item">
+							<a class="nav-link" href="#contact">about</a>
+						</li>
+					</ul>
+				</div>
+
+				<button class="toggle_btn">
+					<i class="bx bx-menu"></i>
+				</button>
+			</nav>
+		</header>
+
+		<!-- ====== 
+			HERO SECTION 
+			====== -->
+		<div class="container">
+			<section id="home" class="grid grid-cols-2">
+				<!-- ===== GRID-ITEM-1 ===== -->
+				<div class="grid-item-1">
+					<div class="flex-item-1">
+						
+						<h1 class="product-tagline">
+							Link<span>ing</span>
+						</h1>
+						<p class="product-desc">
+							Welcome to your professional community
+						</p>
+						<div class="card">
+							<div class="card1">
+							<div class="TOW">	<p class="product-intro">	Search for a job </p> <p class="rig"> <img src="img/chevron-forward-outline.svg" alt=""></p> </div>
+							</div>
+
+							<div class="card2">
+								<div class="TOW">	<p class="product-intro"> Post a job opportunity </p> <p class="rig"> <img src="img/chevron-forward-outline.svg" alt=""></p> </div>
+
+								
+								
+							</div>
+
+							<div class="card3">
+							
+							<div class="TOW">	<p class="product-intro">	Find a person you know </p><p class="rig"> <img src="img/chevron-forward-outline.svg" alt=""></p> </div>
+
+							</div>
+
+						</div>
+					
+						
+						
+						
+					</div>
+
+					<div class="flex-item-2">
+						<ul class="customer-list">
+							<li class="customer-list-item">
+								<img class="customer-img" src="./img/01.png" alt="cusomtor-1" />
+							</li>
+							<li class="customer-list-item">
+								<img class="customer-img" src="./img/02.png" alt="cusomtor-2" />
+							</li>
+							<li class="customer-list-item">
+								<img class="customer-img" src="./img/03.png" alt="cusomtor-3" />
+							</li>
+						</ul>
+						<div class="customer-related-desc">
+							<p>our satisfied customers</p>
+							<span class="rating-star">
+								<i class="bx bxs-star"></i>
+							</span>
+							<span class="rating-count">4.9</span>
+							<span class="ratings">( 110k Ratings )</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- ===== GRID-ITEM-2 ===== -->
+				<div class="grid-item-2">
+					<div class="plant-img">
+						<img src="./img/undraw_personal_info_re_ur1n.svg" alt="plant-img" />
+					</div>
+				</div>
+			</section>
+
+
+			<section id="about">
+				<div class="flexed">
+					<div class="box1">
+						<div class="plant-img">
+							<img src="./img/undraw_react_y-7-wq.svg" alt="plant-img" />
+						</div>
+					</div>
+	
+					<div class="box2">
+						<div class="boxcont">
+							<h3>Find the right job or internship for you</h3>
+							<div class="okay">
+								<p>SUGGESTED SEARCHES</p> 
+
+								<a href=""></a>
+								<a class="button">Green</a>
+								<span class="button button">Engineering</span>
+								<button class="button button3">Business Development</button>
+								<button class="button button4">Finance</button>
+								<button class="button button5">Administrative Assistant</button>
+								<button class="button button">Retail Associate</button>
+								<button class="button button3">Customer Service</button>
+								<button class="button button4">	Operations</button>
+								<button class="button button5">Information Technology</button>
+								<span id="points"></span>
+
+								<span id="moreText"> 	
+									<button class="button button3">Marketing</button>
+									<button class="button button4">	Human Resources</button>
+									<button class="button button5">Arts and Design</button>
+									<button class="button button2">	Community and Social Services</button>
+									<button class="button button3">Entrepreneurship</button>
+									<button class="button button4">Product Management</button>
+									<button class="button button5">Purchasing</button>
+									<button class="button button3">Real Estate</button>
+									<button class="button button4">Research</button>
+									<button class="button button5">Administrative</button>
+								</span>
+
+							<p>
+								<button class="showmore" onclick="toggleText()" id="textButton">
+									Show More
+								</button>
+							</p>	
+							</div>
+
+						</div>
+
+	
+	</div>
+	
+				</div>
+
+				<div class="flexed2">
+					<div class="box2">
+						<div class="boxcont">
+							<h3>Explore topics you are interested in</h3>
+							<div class="okay">
+								<p>CONTENT TOPICS</p> 
+								<P>
+									<div class="wrapper">
+										<div class="select-btn">
+										  <span>Search for Course</span>
+										  <i class="uil uil-angle-down"></i>
+										</div>
+										<div class="content">
+										  <div class="search">
+											<i class="uil uil-search"></i>
+											<input spellcheck="false" type="text" placeholder="Search">
+										  </div>
+										  <ul class="options"></ul>
+										</div>
+									  </div>
+								</P>
+								<a class="button2">Science and Environment</a>
+								<span class="button2 button2">Marketing and Advertising</span>
+								<span class="button2 button2">Python Development</span>
+								<span class="button2 button2">Html & Css</span>
+								<button class="button2 button3">Sales and Retail</button>
+								<button class="button2 button4">Java</button>
+								<button class="button2 button5">Python</button>
+								<button class="button2 button4">Technology</button>
+								<button class="button2 button5">Finance and Economy</button>
+							
+
+								<span id="points2"></span>
+
+								<span id="moreText2">
+									<button class="button2 button2">Health</button>
+									<button class="button2 button3">Business and Management</button> 
+									<button class="button2 button4">	Lifestyle and Leisure</button>
+									<button class="button2 button5">Society and Culture</button>	
+									<button class="button2 button3">Arts and Entertainment</button>
+									<button class="button2 button4">Education and Learning</button>
+									<button class="button2 button5">Sports and Fitness</button>
+							
+								
+								</span>
+
+							<p>
+								<button class="showmore" onclick="toggleText2()" id="textButton2">
+									Show More
+								</button>
+							</p>	
+							</div>
+
+						</div>
+
+	
+	</div>
+	
+	<div class="box3">
+		<div class="plant-img">
+			<img src="./img/undraw_bookshelves_re_lxoy.svg" alt="plant-img" />
+
+		</div>
+	</div>
+				</div>
+			</section>
+		
+
+		</div>
+			<section id="contact">
+				<div class="flexbox">
+					<div class="flex1">
+						<div class="text">
+						
+								Join your colleagues, classmates, and friends on <span class="spand">link<span class="span">in</span></span> 
+							
+						
+						</div>
+						<div class="plant-img">
+							<img src="./img/undraw_version_control_re_mg66.svg" alt="plant-img" />
+						</div>
+
+					
+					</div>
+
+				</div>
+
+
+				
+			</section>
+
+		
+
+			
+		<div class="testimonial">
+			<section class="containers">
+				<div class="slider">
+				  <div class="slide slide-1">
+					<div class="slide-text">
+					  <p class="testimonial-text">
+						“ I’ve been interested in (9-5)coding Jobs for a while but never taken the jump to quit, until now.  I’m now in the job of my dreams as a freelancer on LinkeIn and so excited about the future. ”
+					  </p>
+					  <p class="author-text">Tanya Sinclair
+						<span>UX Engineer</span></p>
+					</div>
+					<div class="slide-img">
+					  <img src="CSS/images/image-john.jpg" alt="img">
+					</div>
+				  </div>
+
+
+				  <div class="slide slide-2">
+					<div class="slide-text">
+					  <p class="testimonial-text">
+						“ If you want to lay the best foundation possible I’d recommend LinkIn, after i got an internship opportunity through them, I now feel so confident about 
+			  starting up as a professional developer. ”
+					  </p>
+					  <p class="author-text">John Tarkpor
+						<span>Junior Front-end Developer</span></p>
+					</div>
+					<div class="slide-img">
+					  <img src="CSS/images/image-tanya.jpg" alt="img">
+					</div>
+				  </div>
+				  <div class="buttons">
+					<div class="next"></div>
+					<div class="prev"></div>
+				  </div>
+				</div>
+			  </section>
+
+		</div>
+
+		<footer class="footer section">
+            <div class="footer__container containered grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-leaf-line footer__logo-icon"></i> Plantex
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our newsletter <br> to stay update
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">1234 - Peru</li>
+                        <li class="footer__information">La Libertad - 43210</li>
+                        <li class="footer__information">123-456-789</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+999 888 777</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all credit cards
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+		
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer>
+        
+	</div>
+	
+
+		<!-- ======= Script.js ====== -->
+
+
+		
+		<script src="js/search.js"></script>
+		<script src="JS/v.js"></script>
+		<script src="JS/slider.js"></script>
+		<script src="./JS/script.js"></script>
+		<script>
+			$(window).on('load',function(){
+				$(".loader").fadeOut(1000);
+				$(".contents").fadeIn(1000);
+			});
+		</script>
+			<script>
+				const offlineConnection = document.querySelector('.offline')
+				const onlineConnection = document.querySelector('.online')
+				const closeBtn = document.querySelectorAll('.close')
+				const refreshBtn = document.querySelector('.refreshBtn')
+		
+				function online() {
+					offlineConnection.classList.remove('active')
+					onlineConnection.classList.add('active')
+				}
+				function offline() {
+					offlineConnection.classList.add('active')
+					onlineConnection.classList.remove('active')
+				}
+		
+				window.addEventListener('online',()=>{
+					online();
+					setTimeout(() => {
+						onlineConnection.classList.remove('active')
+					}, 5000);
+				})
+				window.addEventListener('offline',()=>{
+					offline();
+				})
+		
+				for (let i = 0; i < closeBtn.length; i++) {
+					closeBtn[i].addEventListener('click',()=>{
+						closeBtn[i].parentNode.classList.remove('active');
+						if (closeBtn[i].parentNode.classList.contains('offline')) {
+							setTimeout(() => {
+								closeBtn[i].parentNode.classList.add('active');
+							}, 500);
+						}
+					})
+				}
+		
+				refreshBtn.addEventListener("click",()=>{
+					window.location.reload();
+				})
+			</script>
+	</body>
+</html>
