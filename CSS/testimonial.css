@@ -316,6 +316,7 @@
 .connection
 {
     position: fixed;
+	z-index: 1;
     bottom: 50px;
     left: 50px;
     width: 360px;
