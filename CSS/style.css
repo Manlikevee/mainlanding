@@ -505,6 +505,7 @@ justify-content: space-between;
   }
 
 .button5 {
+	font-size: 16.5px !important;
 	background: #536dfe; 
 	border-radius: 7px;
 	border: 1px solid #999;
